@@ -23,9 +23,11 @@ int main()
         
         if( !failure ) {
             std::cout<< max;
+            break;
         }
         else {
             std::cout << "An error has occured while reading numbers from line" << std::endl;
+            break;
         }
        
     }
